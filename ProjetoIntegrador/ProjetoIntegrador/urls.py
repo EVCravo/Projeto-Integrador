@@ -21,7 +21,7 @@ from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('index/', views.index, name="index"),
+    path('', views.index, name="index"),
     path('cadastro/', views.cadastro, name="cadastro"),
     path('questionario/', views.questionario, name="questionario"),
     
